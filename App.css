@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+h1{
+  font-size: 40px;
+  font-family: 'Rubik Marker Hatch', cursive;
+  color: lightseagreen;
+}
+
+h2{
+  font-size: 36px;
+  font-weight: 200;
+  font-family: 'Ceviche One', cursive;
+}
+
+button{
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  border: none;
+}
+
+
+.food-main-container{
+  width: 100%;
+
+  margin: 10px auto;
+}
+
+a{
+  color: lightseagreen;
+}
+
+
+.food-main-container h1,h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.food-input{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.food-card{
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+  
+  }
+  
+
+.food-cards{
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: auto;
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+ 
+  margin: 30px ;
+
+  
+}
+  
+  .food-img{
+  
+      width: auto;
+ height: 300px;
+ border-radius: 10px;
+  
+  }
+
+  
+  .food-box{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+}
+
+.food-title {
+  font-family: 'Rubik Marker Hatch', cursive;
+    font-size: 2rem;
+}
+
+.food-category{
+
+    font-size: 1rem;
+    background-color: #f6f6f6;
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 6px;
+font-family: 'Ceviche One', cursive;
+}
+
+
+
+.food-input{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+
+
+.food-input input{
+
+margin: 2rem;
+padding: 1rem;
+
+}
+
+.food-input button{
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(7, 1, 1);
+    padding: 0.6rem;
+    font-size: 1.4rem;
+    font-family: 'Ceviche One', cursive;
+}
+
+.food-input button:hover{
+    background-color: lightseagreen;
+    color: black;
+
+}
+
+
+
+.food-link{
+
+   
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+    padding: 0.4rem;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+
+    
+    
+}
+
+
+.food-link a{
+font-size: 1rem;
+    text-decoration: none;
+    color: black;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+
+.food-link a:hover{
+    color: #fff;
+    font-weight: 800;
+  
+}
+
+.food-link:hover{
+  color: #fff;
+    
+    background-color: lightseagreen;
+
+}
